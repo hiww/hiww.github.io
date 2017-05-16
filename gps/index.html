@@ -3,11 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Geolocation API Share</title>
+    <title>Geolocation API Share To SNS.</title>
 </head>
 <body>
-    <ul id="location">
-        <script>
+    <script>
     if (navigator.geolocation) { //success
         navigator.geolocation.getCurrentPosition(
             function (pos) {
@@ -35,8 +34,6 @@
         window.alert("Unsupported Browser.");
     }
 </script>
-
 <a href="https://harekaze.com">Now Loading...</a>
-</ul>
 </body>
 </html>
